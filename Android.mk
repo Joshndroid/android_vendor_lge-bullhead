@@ -423,28 +423,6 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_api_v02
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MULTILIB := both
-LOCAL_SRC_FILES_32 := proprietary/lib/libloc_api_v02.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_ds_api
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/lib64/libloc_ds_api.so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MULTILIB := both
-LOCAL_SRC_FILES_32 := proprietary/lib/libloc_ds_api.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libdsi_netctrl
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := lge
