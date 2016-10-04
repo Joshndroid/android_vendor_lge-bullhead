@@ -1,4 +1,4 @@
-# Auto-generated file, do not edit
+# [2016-10-04] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/ATFWD-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/ATFWD-daemon:lge \
@@ -501,3 +501,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/vendor/lib/rfsa/adsp/fastrpc_shell_0:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/fastrpc_shell_0:lge \
     vendor/lge/bullhead/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd:lge \
     vendor/lge/bullhead/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd:lge
+

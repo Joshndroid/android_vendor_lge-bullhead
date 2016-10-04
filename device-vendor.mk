@@ -1,4 +1,4 @@
-# Auto-generated file, do not edit
+# [2016-10-04] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
@@ -14,55 +14,53 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'proprietary/app'
 PRODUCT_PACKAGES += \
-    RcsImsBootstraputil \
     HiddenMenu \
-    Tycho \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
     TimeService \
-    RCSBootstraputil
+    Tycho
 
 # Prebuilt APKs/JARs from 'proprietary/framework'
 PRODUCT_PACKAGES += \
-    qcrilhook \
-    rcsservice \
-    rcsimssettings \
     cneapiclient \
-    com.google.widevine.software.drm
+    com.google.widevine.software.drm \
+    qcrilhook \
+    rcsimssettings \
+    rcsservice
 
 # Prebuilt APKs/JARs from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
-    HotwordEnrollment \
-    DMService \
-    DCMO \
-    Entitlement \
-    DMConfigUpdate \
-    DiagMon \
     atfwd \
+    CarrierEntitlement \
     CNEService \
     ConnMO \
-    qcrilmsgtunnel \
-    CarrierEntitlement \
+    DCMO \
+    DiagMon \
+    DMConfigUpdate \
+    DMService \
+    Entitlement \
     GCS \
-    SprintDM \
-    LifeTimerService
+    HotwordEnrollment \
+    LifeTimerService \
+    qcrilmsgtunnel \
+    SprintDM
 
 # Prebuilt APKs libs symlinks from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
     libdmengine_32.so \
     libdmjavaplugin_32.so
 
-# Prebuilt shared libraries from 'vendor'
-PRODUCT_PACKAGES += \
-    libqmi_cci \
-    libqmi_common_so \
-    libdsi_netctrl \
-    libqmi_csi \
-    libqmiservices
-
-# Prebuilt shared libraries from 'proprietary'
+# Prebuilt shared libraries
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api
+    libloc_ds_api \
+    libdsi_netctrl \
+    libqmi_cci \
+    libqmi_common_so \
+    libqmi_csi \
+    libqmiservices
 
 # Extra modules from user configuration
 PRODUCT_PACKAGES += \
     ETC_Bullhead_AOSPLinks
+
